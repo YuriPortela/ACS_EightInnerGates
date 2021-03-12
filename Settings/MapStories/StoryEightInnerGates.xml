@@ -1,0 +1,36 @@
+<Stories>
+	<List>
+		<Story Name="StoryEightInnerGates" Parent="BaseFillingStory">
+			<DisplayName>Examine manual</DisplayName>
+			<Desc>[NAME] studied the manual carefully.</Desc>
+			<Kind>None</Kind>
+			<Selections>
+				<li>
+					<Display>Read</Display>
+					<OKResult>
+						<![CDATA[	
+					me:AddMsg(XT("[NAME] read the manual, and gained knowledge of a new Law."));me:UnLockGong("Law_EightInnerGates");story:RemoveBindItem();
+				]]>
+					</OKResult>
+				</li>
+			</Selections>
+		</Story>
+
+		<Story Name="YuriHakuStoryEVENT" Parent="BaseFillingStory">
+			<DisplayName>Learn a new Law</DisplayName>
+			<Desc>
+				You found a strange book in the floor while adventuring in the city.
+			</Desc>
+			<Selections>
+				<li>
+					<Display>Read</Display>
+					<OKResult>
+						<![CDATA[	
+						me:AddMsg(XT("[NAME] read the strip, and gained knowledge of a new Law. Disintegrating into their being, the strip of paper was no more. When [NAME] looked up, the warrior was nowhere to be seen."));me:UnLockGong("Law_EightInnerGates");story:RemoveBindItem();
+					]]>
+					</OKResult>
+				</li>
+			</Selections>
+		</Story>
+	</List>
+</Stories>
