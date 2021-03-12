@@ -1,11 +1,11 @@
 <Gongs>
 	<List>
-		<Gong Name="Law_EightInnerGates">
+		<Gong Name="EightInnerGatesLaw">
 			<DisplayName>Eight Inner Gates</DisplayName>
 			<Desc>Description</Desc>
 			<SelectDesc>SelectDesc</SelectDesc>
 			<FiveBaseNeed>-1,-1,-1,-1,-1</FiveBaseNeed>
-			<ElementKind>Huo</ElementKind>
+			<ElementKind>None</ElementKind>
 			<GongKind>Body</GongKind>
 			<Hide>1</Hide>
 			<SuperParts>

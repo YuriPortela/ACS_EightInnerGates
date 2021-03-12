@@ -1,6 +1,6 @@
 <Stories>
 	<List>
-		<Story Name="StoryEightInnerGates" Parent="BaseFillingStory">
+		<Story Name="EightInnerGatesStory" Parent="BaseFillingStory">
 			<DisplayName>Examine manual</DisplayName>
 			<Desc>[NAME] studied the manual carefully.</Desc>
 			<Kind>None</Kind>
@@ -9,14 +9,14 @@
 					<Display>Read</Display>
 					<OKResult>
 						<![CDATA[	
-					me:AddMsg(XT("[NAME] read the manual, and gained knowledge of a new Law."));me:UnLockGong("Law_EightInnerGates");story:RemoveBindItem();
+					me:AddMsg(XT("[NAME] read the manual, and gained knowledge of a new Law."));me:UnLockGong("EightInnerGatesLaw");story:RemoveBindItem();
 				]]>
 					</OKResult>
 				</li>
 			</Selections>
 		</Story>
 
-		<Story Name="EVENTEightInnerGates" Parent="BaseFillingStory">
+		<Story Name="EightInnerGatesStoryEVENT" Parent="BaseFillingStory">
 			<DisplayName>Learn a new Law</DisplayName>
 			<Desc>
 				You found a strange book in the floor while adventuring in the city.
@@ -26,7 +26,7 @@
 					<Display>Read</Display>
 					<OKResult>
 						<![CDATA[	
-						me:AddMsg(XT("[NAME] read the strip, and gained knowledge of a new Law. Disintegrating into their being, the strip of paper was no more. When [NAME] looked up, the warrior was nowhere to be seen."));me:UnLockGong("Law_EightInnerGates");story:RemoveBindItem();
+						me:AddMsg(XT("[NAME] read the strip, and gained knowledge of a new Law. Disintegrating into their being, the strip of paper was no more. When [NAME] looked up, the warrior was nowhere to be seen."));me:UnLockGong("EightInnerGatesLaw");story:RemoveBindItem();
 					]]>
 					</OKResult>
 				</li>
