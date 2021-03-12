@@ -16,7 +16,7 @@
 			</Selections>
 		</Story>
 
-		<Story Name="YuriHakuStoryEVENT" Parent="BaseFillingStory">
+		<Story Name="EVENTEightInnerGates" Parent="BaseFillingStory">
 			<DisplayName>Learn a new Law</DisplayName>
 			<Desc>
 				You found a strange book in the floor while adventuring in the city.
