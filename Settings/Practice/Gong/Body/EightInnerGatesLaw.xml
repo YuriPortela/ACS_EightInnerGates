@@ -25,12 +25,12 @@
 				<Stage Name="Gate1" Level="1">
 					<DisplayName>First Gate</DisplayName>
 					<Desc></Desc>
-					<Value>5000</Value>
+					<Value>1</Value>
 					<Necks>
 						<Neck Location="1" Kind="Chance">
 							<DisplayName>Gate of Opening</DisplayName>
 							<Desc>The Gate of Opening is located in the brain's left hemisphere, removes the user's mental inhibitions.</Desc>
-							<CostTime>200</CostTime>
+							<CostTime>1</CostTime>
 							<SuccessChange>1</SuccessChange>
 							<AddModifier>Gong_Body_1</AddModifier>
 
@@ -49,12 +49,12 @@
 				<Stage Name="Gate2" Level="2">
 					<DisplayName>Second Gate</DisplayName>
 					<Desc></Desc>
-					<Value>5000</Value>
+					<Value>1</Value>
 					<Necks>
 						<Neck Location="1" Kind="Chance">
 							<DisplayName>Gate of Healing</DisplayName>
 							<Desc>The Gate of Healing is located in the brain's right hemisphere, increases the user's physical strength, This has the added effect of re-energising the body, enabling it to rapidly recover from exhaustion.</Desc>
-							<CostTime>200</CostTime>
+							<CostTime>1</CostTime>
 							<SuccessChange>1</SuccessChange>
 							<AddModifier>Gong_Body_1</AddModifier>
 
@@ -73,12 +73,12 @@
 				<Stage Name="Gate3" Level="3">
 					<DisplayName>Third Gate</DisplayName>
 					<Desc></Desc>
-					<Value>5000</Value>
+					<Value>1</Value>
 					<Necks>
 						<Neck Location="1" Kind="Chance">
 							<DisplayName>Gate of Life</DisplayName>
 							<Desc>The Gate of Life located on the spinal cord, turns the user's skin red when opened, Other effects include the user's pupils disappearing, their hair standing on end, and bulging veins all over their body.</Desc>
-							<CostTime>200</CostTime>
+							<CostTime>1</CostTime>
 							<SuccessChange>1</SuccessChange>
 							<AddModifier>Gong_Body_1</AddModifier>
 
@@ -97,12 +97,12 @@
 				<Stage Name="Gate4" Level="4">
 					<DisplayName>Forth Gate</DisplayName>
 					<Desc></Desc>
-					<Value>5000</Value>
+					<Value>1</Value>
 					<Necks>
 						<Neck Location="1" Kind="Chance">
 							<DisplayName>Gate of Pain</DisplayName>
 							<Desc>The Gate of Pain is located on the spinal cord, increase the user speed, the muscles start to tear, also causes the nose to start bleeding.</Desc>
-							<CostTime>200</CostTime>
+							<CostTime>1</CostTime>
 							<SuccessChange>1</SuccessChange>
 							<AddModifier>Gong_Body_1</AddModifier>
 
@@ -121,12 +121,12 @@
 				<Stage Name="Gate5" Level="5">
 					<DisplayName>Fifth Gate</DisplayName>
 					<Desc></Desc>
-					<Value>5000</Value>
+					<Value>1</Value>
 					<Necks>
 						<Neck Location="1" Kind="Chance">
 							<DisplayName>Gate of Limit</DisplayName>
 							<Desc>The Gate of Limit is located in the abdomen, increases the user strength, the limbs receive compound fractures.</Desc>
-							<CostTime>200</CostTime>
+							<CostTime>1</CostTime>
 							<SuccessChange>1</SuccessChange>
 							<AddModifier>Gong_Body_1</AddModifier>
 
@@ -145,12 +145,12 @@
 				<Stage Name="Gate6" Level="6">
 					<DisplayName>Sixth Gate</DisplayName>
 					<Desc></Desc>
-					<Value>50000</Value>
+					<Value>1</Value>
 					<Necks>
 						<Neck Location="1" Kind="Chance">
 							<DisplayName>Gate of View</DisplayName>
 							<Desc>The Gate of View is located in the stomach, increases all the user's abilities, creates a green aura around the user.</Desc>
-							<CostTime>200</CostTime>
+							<CostTime>1</CostTime>
 							<SuccessChange>1</SuccessChange>
 							<AddModifier>Gong_Body_2</AddModifier>
 
@@ -171,12 +171,12 @@
 				<Stage Name="Gate7" Level="9">
 					<DisplayName>Seventh Gate</DisplayName>
 					<Desc></Desc>
-					<Value>100000</Value>
+					<Value>1</Value>
 					<Necks>
 						<Neck Location="1" Kind="Chance">
 							<DisplayName>Gate of Wonder</DisplayName>
 							<Desc>The Gate of Wonder is located below the stomach, causes the user's body to secrete a blue sweat, The sweat immediately evaporates creating an aura around the user that can be mistaken for Qi, the muscle fibers rupture, causing intense pain.</Desc>
-							<CostTime>200</CostTime>
+							<CostTime>1</CostTime>
 							<SuccessChange>1</SuccessChange>
 							<AddModifier>Gong_Body_3</AddModifier>
 
@@ -198,7 +198,7 @@
 				<Stage Name="Gate8" Level="12">
 					<DisplayName>Eighth Gate</DisplayName>
 					<Desc></Desc>
-					<Value>500000</Value>
+					<Value>1</Value>
 					<Necks>
 						<Neck Location="1" Kind="God">
 							<DisplayName>The Gate of Death</DisplayName>
